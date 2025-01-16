@@ -4,6 +4,19 @@
 
 The **Fruits and Veggies Detection System** is a Convolutional Neural Network (CNN) based model designed to detect and classify various types of fruits from images. Trained on a comprehensive dataset of fruit images, this application is capable of providing **real-time predictions** using a Image or Camera. It is designed for diverse scenarios, including identifying fruits in markets, automating sorting systems, and serving as a tool for nutritional analysis.
 
+## 📊 Model Prediction Performance
+
+Our 36-class Fruits and Vegetables Detection Model has been evaluated using a Confusion Matrix Heatmap! 🌟 Here's how the model performed:
+
+![🟦 Confusion Matrix Heatmap](./Prediction_heatmap.png)
+
+### 🔍 Key Highlights:
+- ✅ **Accurate Predictions**: Most classes are correctly identified, as seen along the diagonal.  
+- ⚠️ **Misclassifications**: Some overlap exists for similar items (e.g., [mention example if needed]).  
+- 📈 **Performance Insights**: The heatmap provides a clear overview of the model's strengths and areas for improvement.  
+
+This visual representation helps us understand the model's behavior and refine it further! 🚀  
+
 ## 🌟 Features
 
 - 🔍 **Real-Time Detection**: Utilizes a webcam to detect and classify fruits dynamically.
