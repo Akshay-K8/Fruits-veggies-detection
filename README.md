@@ -43,11 +43,18 @@ The model was trained on a dataset of fruit images using a Convolutional Neural 
 - **Learning Rate Scheduler:** Dynamically adjusted the learning rate during training for smooth convergence.
 
 ## 📈 Training Results
-- Below are the results of the last 10 epochs:
+- Below are the results of the last 5 epochs:
 ```
-Epoch 10/30: loss: 0.5628 - accuracy: 0.8148 - val_loss: 0.3881 - val_accuracy: 0.8974
-Epoch 11/30: loss: 0.4762 - accuracy: 0.8440 - val_loss: 0.3556 - val_accuracy: 0.8974
-Epoch 12/30: loss: 0.4402 - accuracy: 0.8629 - val_loss: 0.3416 - val_accuracy: 0.9145
-...
-Epoch 19/30: loss: 0.1981 - accuracy: 0.9400 - val_loss: 0.2554 - val_accuracy: 0.9516
+Epoch 15/20
+49/49 ━━━━━━━━━━━━━━━━━━━━ 151s 2s/step - accuracy: 0.9757 - loss: 0.1857 - val_accuracy: 0.9658 - val_loss: 0.1586
+Epoch 16/20
+49/49 ━━━━━━━━━━━━━━━━━━━━ 132s 2s/step - accuracy: 0.9800 - loss: 0.1771 - val_accuracy: 0.9715 - val_loss: 0.1550
+Epoch 17/20
+49/49 ━━━━━━━━━━━━━━━━━━━━ 141s 2s/step - accuracy: 0.9781 - loss: 0.1624 - val_accuracy: 0.9715 - val_loss: 0.1506
+Epoch 18/20
+49/49 ━━━━━━━━━━━━━━━━━━━━ 143s 2s/step - accuracy: 0.9820 - loss: 0.1529 - val_accuracy: 0.9687 - val_loss: 0.1433
+Epoch 19/20
+49/49 ━━━━━━━━━━━━━━━━━━━━ 141s 2s/step - accuracy: 0.9849 - loss: 0.1405 - val_accuracy: 0.9687 - val_loss: 0.1470
+Epoch 20/20
+49/49 ━━━━━━━━━━━━━━━━━━━━ 114s 2s/step - accuracy: 0.9869 - loss: 0.1287 - val_accuracy: 0.9744 - val_loss: 0.1352
 ```
